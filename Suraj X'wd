@@ -1,0 +1,43 @@
+--------- beginning of system
+03-31 14:19:47.771 26796 26796 W Activity: Slow Operation: Activity com.vmos.web/com.vmos.activity.NewSurActivity onCreate took 1305ms
+03-31 14:19:47.797 26796 26796 W Looper  : Slow Looper main: Activity com.vmos.web/com.vmos.activity.NewSurActivity is 691ms late (wall=1457ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 3 msg, msg 2 took 682ms (late=15ms h=android.app.ActivityThread$H w=110)
+--------- beginning of main
+03-31 14:23:34.721 30721 30752 D CrashReport: [UploadManager] Add upload task (pid=30721 | tid=30752)
+03-31 14:23:34.721 30721 30752 D CrashReport: [UploadManager] Initialize security context now (pid=30721 | tid=30752)
+03-31 14:23:34.722 30721 30752 D CrashReport: [UploadManager] Add upload task to queue (pid=30721 | tid=30752)
+03-31 14:23:34.722 30721 30752 I CrashReport: [UploadManager] Create and start a new thread to execute a task of initializing security context: BUGLY_ASYNC_UPLOAD
+03-31 14:23:34.722 30721 30775 D CrashReport: [Util] Try to lock file:security_info (pid=30721 | tid=30775)
+03-31 14:23:34.724 30721 30775 D CrashReport: [Util] Successfully locked file: security_info (pid=30721 | tid=30775)
+03-31 14:23:34.724 30721 30775 D CrashReport: [UploadManager] Load security info from database (pid=30721 | tid=30775)
+03-31 14:23:34.725 30721 30775 D CrashReport: [UploadManager] Execute one upload task for requesting session ID (pid=30721 | tid=30775)
+03-31 14:23:34.726 30721 30775 D CrashReport: [UploadManager] Try to poll all upload task need and put them into temp queue (pid=30721 | tid=30775)
+03-31 14:23:34.726 30721 30775 D CrashReport: [UploadManager] Execute urgent upload tasks of queue which has 1 tasks (pid=30721 | tid=30775)
+03-31 14:23:34.726 30721 30775 I CrashReport: [UploadManager] Create and start a new thread to execute a upload task: BUGLY_ASYNC_UPLOAD
+03-31 14:23:34.726 30721 30775 D CrashReport: [AsyncTaskHandler] Post a normal task: com.tencent.bugly.proguard.u$2
+03-31 14:23:34.728 30721 30776 D CrashReport: [Upload] Run upload task with cmd: 840
+03-31 14:23:34.728 30721 30776 D CrashReport: [UploadManager] Integrate security to HTTP headers (pid=30721 | tid=30776)
+03-31 14:23:34.730 30721 30776 D CrashReport: [Util] Zip 2237 bytes data with type Gzip
+03-31 14:23:34.780 30721 30776 D CrashReport: [Database] deleted t_lr data 1
+03-31 14:23:34.780 30721 30776 D CrashReport: [Database] insert t_lr success.
+03-31 14:23:34.781 30721 30776 D CrashReport: [UploadManager] Uploading(ID:1001) time: 2022-03-31 14:23:34
+03-31 14:23:34.781 30721 30776 D CrashReport: [Upload] Send 1032 bytes
+03-31 14:23:34.781 30721 30776 D CrashReport: [Upload] Upload to http://android.bugly.qq.com/rqd/async?aid=dcd5255a-a3e3-41aa-beaa-52a142e867a6 with cmd 840 (pid=30721 | tid=30776).
+03-31 14:23:34.781 30721 30776 D CrashReport: request: http://android.bugly.qq.com/rqd/async?aid=dcd5255a-a3e3-41aa-beaa-52a142e867a6, send: 1032 (pid=30721 | tid=30776)
+03-31 14:23:34.783 30721 30776 I DpmTcmClient: RegisterTcmMonitor from: $Proxy0
+03-31 14:23:34.789 30721 30773 I Adreno  : QUALCOMM build                   : ec0ba81, I046fbfb8e4
+03-31 14:23:34.789 30721 30773 I Adreno  : Build Date                       : 11/14/18
+03-31 14:23:34.789 30721 30773 I Adreno  : OpenGL ES Shader Compiler Version: EV031.25.03.01
+03-31 14:23:34.789 30721 30773 I Adreno  : Local Branch                     : 
+03-31 14:23:34.789 30721 30773 I Adreno  : Remote Branch                    : 
+03-31 14:23:34.789 30721 30773 I Adreno  : Remote Branch                    : 
+03-31 14:23:34.789 30721 30773 I Adreno  : Reconstruct Branch               : 
+03-31 14:23:34.789 30721 30773 I Adreno  : Build Config                     : S L 6.0.7 AArch64
+03-31 14:23:34.795 30721 30773 I Adreno  : PFP: 0x005ff112, ME: 0x005ff066
+03-31 14:23:34.800 30721 30773 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+03-31 14:23:34.800 30721 30773 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+03-31 14:23:34.800 30721 30773 I OpenGLRenderer: Initialized EGL, version 1.4
+03-31 14:23:34.801 30721 30773 D OpenGLRenderer: Swap behavior 2
+03-31 14:23:35.930 30721 30721 E preferencesSaveCall: saveParam: PermissionAdModel
+03-31 14:23:35.936 30721 30721 I Timeline: Timeline: Activity_launch_request time:31429408 intent:Intent { cmp=com.vmos.web/com.vmos.glb.LauncherActivity }
+03-31 14:23:35.952 30721 30721 I Choreographer: Skipped 66 frames!  The application may be doing too much work on its main thread.
+03-31 14:23:35.977 30721 30773 I OpenGLRenderer: Davey! duration=1127ms; Flags=1, IntendedVsync=31428322613898, Vsync=31429422613854, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=31429425339071, AnimationStart=31429425368655, PerformTraversalsStart=3142942536
